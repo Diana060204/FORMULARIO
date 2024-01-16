@@ -1,0 +1,70 @@
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .aesthetic-form {
+    background-color: #f8f0e4;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #545454;
+  }
+  
+  .form-input,
+  .form-radio,
+  .form-checkbox,
+  .form-textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 1px solid #dcd0c0;
+    border-radius: 4px;
+    font-size: 14px;
+    background-color: #f0e1c8;
+  }
+  
+  .radio-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .radio-label {
+    margin-bottom: 5px;
+  }
+  
+  .checkbox-label {
+    display: flex;
+    align-items: center;
+  }
+  
+  .form-button {
+    background-color: #a8c1b5;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  
+  .form-button:hover {
+    background-color: #7f9788;
+  }
+  
